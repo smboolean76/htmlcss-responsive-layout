@@ -38,3 +38,32 @@
         width: 50%;
     }
 }
+
+/*---------------------
+    SECTION TESTIMONIALS
+---------------------*/
+.card-testimonial {
+    background-color: var(--secondary-color);
+    padding: 1.25rem;
+    border-radius: 2.5rem;
+    text-align: center;
+    margin: 1.25rem 0;
+}
+.card-testimonial-img {
+    border-radius: 50%;
+}
+.card-testimonial .col {
+    width: 100%;
+}
+/* Tablet */
+@media screen and (min-width: 768px){
+    .card-testimonial {
+        text-align: left;
+    }
+    .card-testimonial .col-left {
+        width: 30%;
+    }
+    .card-testimonial .col-right {
+        width: 70%;
+    }
+}

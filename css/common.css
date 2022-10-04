@@ -29,7 +29,20 @@ section {
 .align-items-end {
     align-items: flex-end;
 }
+.align-items-center {
+    align-items: center;
+}
 
+/*---------------------
+    TEXT
+---------------------*/
+.text-center {
+    text-align: center;
+}
+
+/*---------------------
+    GRID
+---------------------*/
 .row {
     display: flex;
     flex-wrap: wrap;
