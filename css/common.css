@@ -53,3 +53,12 @@ section {
     padding-left: .625rem;
     padding-right: .625rem;
 }
+
+/*---------------------
+    CARD
+---------------------*/
+.card {
+    border-radius: 1.25rem;
+    padding: 1.25rem;
+    background-color: #fff;
+}
