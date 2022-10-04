@@ -1,0 +1,24 @@
+/*---------------------
+    BUTTONS
+---------------------*/
+.btn {
+    border-radius: 1.25rem;
+}
+.btn-lg {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+}
+.btn-xl {
+    padding: 3.125rem;
+}
+.btn-first {
+    background-color: var(--first-color);
+    color: #fff;
+}
+.btn-secondary {
+    background-color: var(--secondary-color);
+    color: #fff;
+}
+.btn-text-secondary {
+    color: var(--secondary-color);
+}

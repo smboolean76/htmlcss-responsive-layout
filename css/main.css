@@ -1,17 +1,9 @@
 /*---------------------
     SECTION HIGHLIGHTS
 ---------------------*/
-
-.card-debug {
+.highlights .card {
     background-color: var(--first-color-light);
-    height: 100px;
 }
-
-.highlights .col {
-    width: 100%;
-    margin: .625rem 0;
-}
-
 /* Tablet */
 @media screen and (min-width: 768px){
     .highlights .col {
@@ -28,10 +20,6 @@
 .strategic {
     background-color: var(--secondary-color);
 }
-.strategic .col {
-    width: 100%;
-    margin: .625rem 0;
-}
 /* Tablet */
 @media screen and (min-width: 768px){
     .strategic .col {
@@ -42,28 +30,22 @@
 /*---------------------
     SECTION TESTIMONIALS
 ---------------------*/
-.card-testimonial {
+.testimonials .card {
     background-color: var(--secondary-color);
     padding: 1.25rem;
-    border-radius: 2.5rem;
     text-align: center;
     margin: 1.25rem 0;
 }
-.card-testimonial-img {
-    border-radius: 50%;
-}
-.card-testimonial .col {
-    width: 100%;
-}
+
 /* Tablet */
 @media screen and (min-width: 768px){
-    .card-testimonial {
+    .testimonials .card {
         text-align: left;
     }
-    .card-testimonial .col-left {
+    .testimonials .col-left {
         width: 30%;
     }
-    .card-testimonial .col-right {
+    .testimonials .col-right {
         width: 70%;
     }
 }
@@ -73,10 +55,6 @@
 ---------------------*/
 .benefits {
     background-color: var(--secondary-color);
-}
-.benefits .col {
-    width: 100%;
-    margin-bottom: 1.25rem;
 }
 /* Tablet */
 @media screen and (min-width: 768px){
@@ -94,10 +72,6 @@
 /*---------------------
     SECTION ABOUT US
 ---------------------*/
-.about-us .col {
-    width: 100%;
-    margin-bottom: 1.25rem;
-}
 /* Tablet */
 @media screen and (min-width: 768px){
     .about-us .col {
