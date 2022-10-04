@@ -90,3 +90,24 @@
         width: calc(100% / 3);
     }
 }
+
+/*---------------------
+    SECTION ABOUT US
+---------------------*/
+.about-us .col {
+    width: 100%;
+    margin-bottom: 1.25rem;
+}
+/* Tablet */
+@media screen and (min-width: 768px){
+    .about-us .col {
+        padding-left: 2.8125rem;
+        padding-right: 2.8125rem;
+    }
+    .about-us .col-left {
+        width: 65%;
+    }
+    .about-us .col-right {
+        width: 35%;
+    }
+}
