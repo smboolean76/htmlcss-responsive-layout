@@ -1,6 +1,10 @@
 /*---------------------
     COMMON
 ---------------------*/
+section {
+    padding: 1.875rem 0;
+}
+
 .container {
     max-width: 68.75rem;
     padding-left: 1.25rem;
@@ -8,6 +12,31 @@
     margin: auto;
 }
 
+.list-inline {
+    display: flex;
+    list-style: none;
+}
+
+/*---------------------
+    FLEX
+---------------------*/
+.flex {
+    display: flex;
+}
+.justify-space-between {
+    justify-content: space-between;
+}
+.align-items-end {
+    align-items: flex-end;
+}
+
 .row {
     display: flex;
+    flex-wrap: wrap;
+    margin-left: -0.625rem;
+    margin-right: -0.625rem;
+}
+.col {
+    padding-left: .625rem;
+    padding-right: .625rem;
 }

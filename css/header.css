@@ -1,0 +1,22 @@
+/*---------------------
+    HEADER
+---------------------*/
+header {
+    background-color: var(--first-color);
+    padding: 1.25rem 0;
+    color: #fff;
+}
+
+.main-nav {
+    display: none;
+}
+
+/* Desktop */
+@media screen and ( min-width: 992px ) {
+    .hamburger {
+        display: none;
+    }
+    .main-nav {
+        display: block;
+    }
+}
