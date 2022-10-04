@@ -111,3 +111,10 @@
         width: 35%;
     }
 }
+
+/*---------------------
+    SECTION GET STARTED
+---------------------*/
+.get-started {
+    background-color: var(--secondary-color);
+}
