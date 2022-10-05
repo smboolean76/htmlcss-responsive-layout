@@ -1,6 +1,12 @@
 /*---------------------
     BUTTONS
 ---------------------*/
+button {
+    background-color: transparent;
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+}
 .btn {
     border-radius: 1.25rem;
 }
@@ -21,4 +27,12 @@
 }
 .btn-text-secondary {
     color: var(--secondary-color);
+}
+.btn-circle {
+    height: 2.25rem;
+    width: 2.25rem;
+    border-radius: 50%;
+    line-height: 2.25rem;
+    text-align: center;
+    color: inherit;
 }

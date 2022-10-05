@@ -3,6 +3,17 @@
 ---------------------*/
 .highlights .card {
     background-color: var(--first-color-light);
+    height: 100%;
+}
+
+.highlights .col:first-child .card {
+    padding-bottom: 0;
+}
+
+.highlights .card .card-img {
+    display: block;
+    max-width: 100%;
+    max-height: 280px;
 }
 /* Tablet */
 @media screen and (min-width: 768px){
@@ -13,7 +24,21 @@
         width: calc( (100% / 3) * 2);
     }
 }
-
+/* Desktop */
+@media screen and (min-width: 992px){
+    .highlights .col:first-child .card {
+        display: flex;
+    }
+    .highlights .card .card-left {
+        width: 50%;
+    }
+    .highlights .card .card-right {
+        width: 50%;
+    }
+    .highlights .card-img {
+        margin: auto;
+    }
+}
 /*---------------------
     SECTION STRATEGIC
 ---------------------*/
@@ -36,17 +61,27 @@
     text-align: center;
     margin: 1.25rem 0;
 }
+.testimonials .card .col-left img {
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+}
 
 /* Tablet */
 @media screen and (min-width: 768px){
+    .testimonials .card .row {
+        flex-wrap: nowrap;
+    }
     .testimonials .card {
         text-align: left;
     }
     .testimonials .col-left {
-        width: 30%;
+        width: auto;
+        flex-shrink: 0;
     }
     .testimonials .col-right {
-        width: 70%;
+        width: auto;
+        flex-grow: 1;
     }
 }
 
@@ -72,6 +107,21 @@
 /*---------------------
     SECTION ABOUT US
 ---------------------*/
+.avatar {
+    position: relative;
+    display: inline-block;
+}
+.avatar img {
+    display: block;
+}
+.avatar-icon {
+    font-size: 6rem;
+    position: absolute;
+    top: 2%;
+    right: 2%;
+    z-index: 1;
+}
+
 /* Tablet */
 @media screen and (min-width: 768px){
     .about-us .col {
